@@ -17,7 +17,7 @@ debut
     test=vrai
     tant que long(m)>=0 faire
         si ch[i]==ch[j] alors 
-            palyndrome (ch:chaine;i+1,j-1)
+            palind (ch:chaine;i+1,j-1)
         sinon 
             test=faux
         fin si
