@@ -1,0 +1,26 @@
+algorithme exercice_palindrome
+debut
+    palindrome(ch)
+fin
+PROCEDURE palindrome(ch:chaine)
+debut
+    tant que ch!="" faire
+        si palind(ch,0,long(ch)-1) alors 
+            ecrire("Palindrome")
+        sinon
+            ecrire("N'est pas palindrome")
+        fin si
+    fin tant que
+fin
+fonction palind(ch:chaine;i,j:entier): BOOLEAN
+debut
+    test=vrai
+    tant que long(m)>=0 faire
+        si ch[i]==ch[j] alors 
+            palyndrome (ch:chaine;i+1,j-1)
+        sinon 
+            test=faux
+        fin si
+    fin tant que
+    retourner test
+fin
